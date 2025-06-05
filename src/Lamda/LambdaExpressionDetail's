@@ -1,0 +1,20 @@
+Java 8
+
+Lambda expression provide a clean and concise way to represent a method interface using an expression
+
+Syntax :
+
+     ( Parameters ) -> expression
+
+Or for multiple lines
+
+    ( Parameters )  -> {
+      // multiple Statements
+    }
+
+Best Use Cases :
+
+1. Functional Interface ( interface with only one abstract method ).
+2. Writing short implementations for listeners, comparators, Runnable, etc.
+3. Processing collections with Stream API.
+

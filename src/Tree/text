@@ -1,0 +1,23 @@
+height of binary tree
+
+int height(node root){
+
+ if(root == null) return 0;
+
+ return Math.max(height(root left),height(root right) +1 ;
+
+ }
+
+
+
+ ///////second type to get height find a binary tree
+ 
+
+ public int height(Node node){
+  if(node == null){
+   return -1;
+
+   }
+   return node.height;
+
+ }
