@@ -8,10 +8,9 @@ import java.util.Queue;
 public class testgraph {
     public static void main(String[] args) {
         int numNodes = 4;
-
         ArrayList<ArrayList<Integer >> graph = new ArrayList<>();
 
-        //sab nodes ka liya khail list bana lo
+        //sab nodes ka List bana lo
         for (int i=0 ; i< numNodes; i++){
             graph.add(new ArrayList<>());
 

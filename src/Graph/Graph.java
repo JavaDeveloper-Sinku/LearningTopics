@@ -16,19 +16,13 @@ public class Graph {
     //Node add karne ki method
     public void addnode(String node){
         graph.putIfAbsent(node, new ArrayList<>());
-
-
     }
-
     //Do node ke beech connection add karna ka method
     public void addedge(String node1,String node2){
         graph.get(node1).add(node2);
-
-
         //Undirected graph ke liye
         graph.get(node2).add(node1);
     }
-
     //Graph print karne ka method
     public void printGraph(){
         for (String node : graph.keySet()){
