@@ -7,6 +7,7 @@ import java.util.Queue;
 //Arraylist
 public class testgraph {
     public static void main(String[] args) {
+
         int numNodes = 4;
         ArrayList<ArrayList<Integer >> graph = new ArrayList<>();
 

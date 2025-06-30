@@ -14,12 +14,15 @@ public class Graph {
     Map<String, List<String>> graph = new HashMap<>();
 
     //Node add karne ki method
+
     public void addnode(String node){
         graph.putIfAbsent(node, new ArrayList<>());
     }
+
     //Do node ke beech connection add karna ka method
     public void addedge(String node1,String node2){
         graph.get(node1).add(node2);
+
         //Undirected graph ke liye
         graph.get(node2).add(node1);
     }
@@ -29,9 +32,6 @@ public class Graph {
             System.out.println(node + "-->"+ graph.get(node));
         }
     }
-
-
-
 
     public static void main(String[] args) {
         Graph g= new Graph();
