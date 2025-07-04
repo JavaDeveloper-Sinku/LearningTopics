@@ -47,6 +47,8 @@ public class weightedGraph {
         g.addEdge(1, 2, 2);
 
         g.printGraph();
+        //new like
+        System.out.println("Graph Section");
 
     }
 }
